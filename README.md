@@ -28,7 +28,7 @@ also When Code Pushed To Git Repository. Jenkins Auto Triger  and Start & Build 
 ##  2] 🏢Architecture
 
 
-![[flask app.png]]
+![AWS](flaskapp.png)
 
 two-tier-flask-app
 │
@@ -158,9 +158,8 @@ Docker run jenkins
 
   - Paste the password, install suggested plugins, and create an admin user.
   - ![[Screenshot_2026-03-13_16-00-39.png]]
-  
-    
-![[awsec23.png]]
+
+![AWS](awsec23.png)
 
 ## Step 6 GitHub Repository Configuration
 
@@ -299,8 +298,7 @@ CMD ["python", "app.py"]
 
 - Credentials -> `None`
  
-
-![[awsec24.png]]
+![AWS](awsec24.png)
 
 ---
 ###  Finalize
@@ -308,11 +306,12 @@ CMD ["python", "app.py"]
 - Click **Save**
 
 - Click **Build Now** to trigger pipeline
- ![[awsec25.png]]
+  
+![AWS](awsec25.png)
  
 ## Step 8 Verify Deployment: 
 - After a successful build, your Flask application will be accessible at `http://<your-ec2-public-ip>:5000`.
 
 - Confirm the containers are running on the EC2 instance with `docker ps`
-![[jenkinsapp1.png]]
-![[jenkinswebapp900.png]]
+![AWS](jenkinsapp1.png)
+![AWS](jenkinswebapp900.png)
