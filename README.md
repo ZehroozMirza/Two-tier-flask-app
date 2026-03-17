@@ -37,20 +37,20 @@ two-tier-flask-app
 │                                                              
 ├── app.py                     # Flask application entry point                                                         
 │                              # Handles routes and database connection                                              
-│                                                                    
+│                                                                                                              
 ├── requirements.txt           # Python dependencies                                          
-│                              # (Flask, mysql-connector, etc.)                                            
+│                              # (Flask, mysql-connector, etc.)                                                          
 │                                                                                        
-├── Dockerfile                 # Builds Docker image for Flask app                                         
+├── Dockerfile                 # Builds Docker image for Flask app                                                       
 │                                                                                                              
 ├── docker-compose.yaml        # Multi-container setup                                                             
-│                              # Runs Flask app + MySQL database                                            
+│                              # Runs Flask app + MySQL database                                                          
 │                                                                                                                          
 ├── message.sql                # Database initialization script                          
 │                              # Creates tables and inserts sample data                                 
 │                                                                             
-├── Jenkinsfile                # CI/CD pipeline configuration                                       
-│                              # Automates build, test and deployment                                          
+├── Jenkinsfile                # CI/CD pipeline configuration                                                              
+│                              # Automates build, test and deployment                                                      
 │                                                                                                             
 └── README.md                  # Project documentation                                                                     
 
