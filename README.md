@@ -30,11 +30,11 @@ also When Code Pushed To Git Repository. Jenkins Auto Triger  and Start & Build 
 
 ![AWS](flaskappimg.png)
 
-two-tier-flask-app
-│
-├── templates/                 # HTML templates used by Flask (Jinja)
-│   └── index.html             # Main frontend UI page
-│
+two-tier-flask-app                                                                                                      
+│                                      
+├── templates/                 # HTML templates used by Flask (Jinja)                                                      
+│   └── index.html             # Main frontend UI page                                           
+│                                                              
 ├── app.py                     # Flask application entry point
 │                              # Handles routes and database connection
 │
