@@ -28,7 +28,7 @@ also When Code Pushed To Git Repository. Jenkins Auto Triger  and Start & Build 
 ##  2] 🏢Architecture
 
 
-![AWS](flaskapp.png)
+![AWS](flaskappimg.png)
 
 two-tier-flask-app
 │
