@@ -35,24 +35,24 @@ two-tier-flask-app
 ├── templates/                 # HTML templates used by Flask (Jinja)                                                      
 │   └── index.html             # Main frontend UI page                                           
 │                                                              
-├── app.py                     # Flask application entry point
-│                              # Handles routes and database connection
-│
-├── requirements.txt           # Python dependencies
-│                              # (Flask, mysql-connector, etc.)
-│
-├── Dockerfile                 # Builds Docker image for Flask app
-│
-├── docker-compose.yaml        # Multi-container setup
-│                              # Runs Flask app + MySQL database
-│
-├── message.sql                # Database initialization script
-│                              # Creates tables and inserts sample data
-│
-├── Jenkinsfile                # CI/CD pipeline configuration
-│                              # Automates build, test and deployment
-│
-└── README.md                  # Project documentation
+├── app.py                     # Flask application entry point                                                         
+│                              # Handles routes and database connection                                              
+│                                                                    
+├── requirements.txt           # Python dependencies                                          
+│                              # (Flask, mysql-connector, etc.)                                            
+│                                                                                        
+├── Dockerfile                 # Builds Docker image for Flask app                                         
+│                                                                                                              
+├── docker-compose.yaml        # Multi-container setup                                                             
+│                              # Runs Flask app + MySQL database                                            
+│                                                                                                                          
+├── message.sql                # Database initialization script                          
+│                              # Creates tables and inserts sample data                                 
+│                                                                             
+├── Jenkinsfile                # CI/CD pipeline configuration                                       
+│                              # Automates build, test and deployment                                          
+│                                                                                                             
+└── README.md                  # Project documentation                                                                     
 
 
 ### 3) Step 1: Prepare AWS EC2 Instance 🚀
